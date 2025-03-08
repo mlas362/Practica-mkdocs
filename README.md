@@ -17,25 +17,25 @@ Este documento describe los pasos necesarios para la Creación de un sitio web e
    docker run --rm -it -p 8000:8000 -u $(id -u):$(id -g) -v "$PWD":/docs squidfunk/mkdocs-material
    ```
    ![comprobacion](capturas/captura_mk1.png)
-### Aquí podemos ver la estructura de nuestro proyecto
+Aquí podemos ver la estructura de nuestro proyecto
 
    ![comprobacion](capturas/captura_mk3.png)
-### Vemos como la creación del servidor de desarrollo local funciona correctamente
+Vemos como la creación del servidor de desarrollo local funciona correctamente
 
-  ![comprobacion](capturas/captura_mk2.png)
-### Accediendo a la IP pública de nuestra instancia con el puerto 8000, podemos ver nuestro sitio estático con MKDocs
+   ![comprobacion](capturas/captura_mk2.png)
+Accediendo a la IP pública de nuestra instancia con el puerto 8000, podemos ver nuestro sitio estático con MKDocs
 
 4. **Generar la documentación (Comando: build):**
    ```bash
    docker run --rm -it -u $(id -u):$(id -g) -v "$PWD":/docs squidfunk/mkdocs-material build
    ```
-  ![comprobacion](capturas/captura_mk6.png)
-### Una vez ejecutado el comando para generar la documentación, vemos como se ha generado la carpeta site con los archivos para guardar la documentación
+   ![comprobacion](capturas/captura_mk6.png)
+Una vez ejecutado el comando para generar la documentación, vemos como se ha generado la carpeta site con los archivos para guardar la documentación
 
 5. **Cambios en el archivo mkdocs.yml**
-  ![comprobacion](capturas/captura_mk4.png)
-### He cambiado el color, la letra y he añadido el repositorio de la práctica 1.11
+   ![comprobacion](capturas/captura_mk4.png)
+He cambiado el color, la letra y he añadido el repositorio de la práctica 1.11
 
-  ![comprobacion](capturas/captura_mk5.png)
-### Aquí vemos como los cambios han surgido efecto
+   ![comprobacion](capturas/captura_mk5.png)
+Aquí vemos como los cambios han surgido efecto
 
