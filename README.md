@@ -16,4 +16,5 @@ Este documento describe los pasos necesarios para la Creación de un sitio web e
    ```bash
    docker run --rm -it -p 8000:8000 -u $(id -u):$(id -g) -v "$PWD":/docs squidfunk/mkdocs-material
    ```
+   ![comprobacion](capturas/captura_mk1.png)
 
