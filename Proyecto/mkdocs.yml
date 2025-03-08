@@ -1,0 +1,18 @@
+site_name: IAW  # Nombre del sitio web
+
+nav:
+    - Principal: index.md
+    - Acerca de: about.md
+
+theme: 
+  name: material
+  font:
+    text: Roboto
+    codo: Fira Code
+  palette:
+    primary: red
+  extra:
+    repo_url: https://github.com/mlas362/Practica-1.11
+    social:
+     icon: fontawesome/brands/mastodon
+     link: https://fosstodon.org/@squidfunk
